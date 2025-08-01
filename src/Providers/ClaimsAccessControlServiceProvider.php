@@ -1,6 +1,6 @@
 <?php
 
-namespace ClaimsAccessControl\Providers;
+namespace Hdruk\ClaimsAccessControl\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

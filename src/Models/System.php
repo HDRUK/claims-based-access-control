@@ -1,6 +1,6 @@
 <?php
 
-namespace ClaimsBasedAccessControl\Models;
+namespace Hdruk\ClaimsBasedAccessControl\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

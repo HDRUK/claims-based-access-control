@@ -1,6 +1,6 @@
 <?php
 
-namespace ClaimsAccessControl\Services;
+namespace Hdruk\ClaimsAccessControl\Services;
 
 class ClaimResolverService
 {

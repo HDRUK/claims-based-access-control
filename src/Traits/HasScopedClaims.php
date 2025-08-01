@@ -1,6 +1,6 @@
 <?php
 
-namespace ClaimsAccessControl\Traits;
+namespace Hdruk\ClaimsAccessControl\Traits;
 
 trait HasScopedClaims
 {
