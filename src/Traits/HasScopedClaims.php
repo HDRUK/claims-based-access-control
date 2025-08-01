@@ -9,14 +9,14 @@ trait HasScopedClaims
         return $this->claims ?? [];
     }
 
-    private function rolesForSystem(string $system): array
+    private function workgroupsForSystem(string $system): array
     {
         $claims = $this->getClaims();
         return $claims['workgroups'][$system] ?? [];
     }
 
-    public function hasSystemRole(string $system, string $role): bool
+    public function hasSystemWorkgroup(string $system, string $role): bool
     {
-        return in_array($role, $this->rolesForSystem($system));
+        return in_array($role, $this->workgroupsForSystem($system));
     }
 }
