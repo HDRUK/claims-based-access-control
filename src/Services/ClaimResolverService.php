@@ -2,7 +2,7 @@
 
 namespace Hdruk\ClaimsAccessControl\Services;
 
-use Hdruk\ClaimAccessControl\Services\ClaimMappingService;
+use Hdruk\ClaimsAccessControl\Services\ClaimMappingService;
 
 class ClaimResolverService
 {
