@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ClaimsAccessControl\\Providers\\ClaimsAccessControlServiceProvider"
+                "Hdruk\\ClaimsAccessControl\\Providers\\ClaimsAccessControlServiceProvider"
             ]
         }
     }
