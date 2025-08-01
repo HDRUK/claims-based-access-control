@@ -1,5 +1,5 @@
 {
-    "name": "hdruk/laravel-claims-based-access-control",
+    "name": "hdruk/claims-based-access-control",
     "description": "Scoped Claims-Based Access Control for Laravel",
     "type": "library",
     "license": "MIT",
@@ -18,13 +18,5 @@
             "ClaimsAccessControl\\Providers\\ClaimsAccessControlServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/HDRUK/laravel-claims-based-access-control"
-        }
-    ]
+    }
 }
