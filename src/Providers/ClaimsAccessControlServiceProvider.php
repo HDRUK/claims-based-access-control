@@ -9,7 +9,9 @@ class ClaimsAccessControlServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom(__DIR__ . '/../../config/claims-access.php', 'claims-access');
-        $this->app->singleton(ClaimMappingService::class);
+        $this->app->singleton(ClaimMappingService::class, function() {
+            return new ClaimMappingService();
+        });
 
     }
 

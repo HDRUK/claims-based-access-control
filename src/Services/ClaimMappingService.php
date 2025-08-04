@@ -8,7 +8,12 @@ class ClaimMappingService
 
     public function setMap(array $map): void
     {
-        $this->map = $map;
+        $this->map[config('claims-access.default_system')] = $map;
+    }
+
+    public function getMap(): array
+    {
+        return $this->map;
     }
 
     public function mapWorkgroups(array $groups): array

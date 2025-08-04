@@ -6,7 +6,7 @@ use Hdruk\ClaimsAccessControl\Services\ClaimMappingService;
 
 class ClaimResolverService
 {
-    protected ?ClaimMappingService $mapper;
+    public ?ClaimMappingService $mapper;
 
     public function __construct(?ClaimMappingService $mapper = null)
     {
