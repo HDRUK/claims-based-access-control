@@ -6,10 +6,11 @@ class ClaimMappingService
 {
     protected array $map = [];
 
-    public function setMap(array $map, ?string $system = null): void
+    public function setMap(array $map, ?string $system = null): self
     {
         $system = $system ?? config('claims-access.default_system');
         $this->map[$system] = $map;
+        return $this;
     }
 
     public function getMap(): array
